@@ -6,6 +6,7 @@ This README provides detailed instructions on setting up and running simulations
 
 - Ensure that you have atleast 3.5 GB of free space before running this project in CIMS CLUSTER.
 - Using this README, we have successfully ran our code on CIMS cluster.
+- All the Instructions should be executed in CIMS cluster
 
 
 ## Setup and Execution Steps
