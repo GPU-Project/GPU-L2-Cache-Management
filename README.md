@@ -13,7 +13,7 @@ This README provides detailed instructions on setting up and running simulations
 
 ### Step 1: Build GPGPU-Sim Sandbox
 
-Create a GPGPU-Sim sandbox environment using Apptainer. This step sets up an isolated environment for your GPGPU-Sim project.
+Create a GPGPU-Sim sandbox environment using Apptainer (already available readily in CIMS). This step sets up an isolated environment for your GPGPU-Sim project.
 
 ```
 apptainer build --sandbox gpgpu-sim-sandbox docker://socalucr/gpgpu-sim    
@@ -148,8 +148,8 @@ chmod +x run_benchmark.sh
 Change the permissions for the run_benchmark file
 
 ```
-./run_benchmark.sh F BFS
+./run_benchmark.sh Q RAY
 ```
-All Possible values for cache policies are L, F, M, Q, R, S, P
+The Possible values for cache policies are L(Least Recently Used), F(First-In, First-Out), M(Most Recently Used), Q(Least Frequently Used), R(Random Replacement), S (Second Chance (or Clock) Page Replacement Policy), P(Last-In, First-Out)
 
-All Possible values for Benchmark algorithms are CP, MUM, RAY, NQU, BFS
+The Possible values for Benchmark algorithms are CP (COULOMBIC POTENTIAL), MUM (MUMmerGPU), RAY(RAY), NQU(NQU), BFS(BFS)

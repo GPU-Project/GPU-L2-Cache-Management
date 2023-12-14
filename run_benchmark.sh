@@ -55,7 +55,7 @@ cd /root
 
 # Step 14 and 15: Copy the modified config and wattch files to the test directory
 cp -a ./gpgpu-sim_distribution/configs/GTX480/* ./test/
-cp cp test/gpgpusim.config  "$BENCHMARK_DIR/"
+cp test/gpgpusim.config  "$BENCHMARK_DIR/"
 cp "$GPUWATTCH_FILE" "$BENCHMARK_DIR/"
 
 # Step 15: Navigate to the benchmarks directory
