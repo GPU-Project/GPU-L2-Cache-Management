@@ -1,6 +1,6 @@
 # GPGPU-Sim Project Setup Guide
 
-This README provides detailed instructions on setting up and running simulations using GPGPU-Sim, focusing on L2 cache management in GPU architectures.
+This README provides detailed instructions on setting up and running simulations using GPGPU-Sim, focusing on L2 cache management in GPU architectures. We have kept our code in Github at this link https://github.com/GPU-Project/GPU-L2-Cache-Management , If you want to go through this README.md that is well formatted, you can preview at https://github.com/GPU-Project/GPU-L2-Cache-Management , the instruction setup will be very easy as the commands to execute are well highlighted in README.md (this same file) 
 
 ## Prerequisites
 
